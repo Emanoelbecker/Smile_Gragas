@@ -8,30 +8,80 @@
     text-align: center;
     font-size: 100px;
     background-color: lightgrey;
-    width: 150px;
+    width: 200px;
     height: 200px;
-    border: 15px solid green;
+    border: 15px solid rgb(19, 0, 128);
     padding: 10px;
     margin: 20px;
+    border-radius: 20px;
+    background: url("https://images.freeimages.com/images/large-previews/51b/blue-sky-1160827.jpg") ;
+    transition: 2s;
   }
   .acertou {
     text-align: center;
-    color: yellow;
+    color: rgb(0, 255, 26);
     background-color: LawnGreen;
-    width: 150px;
+    width: 200px;
     height: 200px;
     border: 15px solid yellow;
     padding: 10px;
     margin: 20px;
+    border-radius: 20px;
+    background: url("https://thumbs.dreamstime.com/b/fundo-chique-gasto-do-teste-padr%C3%A3o-da-repeti%C3%A7%C3%A3o-damasco-107082650.jpg");
+    transition: 2s;
+    
   }
   .errou {
     text-align: center;
-    font-size: 100px;
     color: white;
     background-color: red;
-    width: 150px;
+    width: 200px;
     height: 200px;
-    border: 15px solid black;
+    border: 15px solid rgb(203, 9, 9);
     padding: 10px;
     margin: 20px;
+    border-radius: 20px;
+    background: url("https://imagensfree.com.br/wp-content/uploads/2021/06/fundo-convite-festa-junina-amarelo.jpg");
+    transition: 2s;
+    
   }
+  .errou:hover {
+    border: 15px solid rgba(36, 11, 226, 0.442);
+   background: url("https://th.bing.com/th/id/OIP.JXGFHHCVlFWuEU7KYYCvmgHaEB?rs=1&pid=ImgDetMain");
+     
+  }
+  .acertou:hover{
+    border: 15px solid rgba(239, 5, 149, 0.442);
+   background: url("https://th.bing.com/th/id/OIP.5w0ZaylLnvPxTLXuEpsmWQHaEo?rs=1&pid=ImgDetMain");
+  }
+   body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+    /* Gradiente linear (de cima para baixo) */
+    background: linear-gradient(to bottom, #1e5799, #2989d8, #207cca, #7db9e8);
+    
+    /* Ou um gradiente radial (circular) */
+    /* background: radial-gradient(circle, #1e5799, #2989d8, #7db9e8); */
+    
+    /* Para cobrir toda a tela */
+    min-height: 100vh;
+}
+
+h1, p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+button{
+  background-color: #7db9e8;
+  color: blueviolet;
+
+}
+div{
+  color: blueviolet;
+}
+h1, p, title, button{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
